@@ -1,0 +1,659 @@
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    }
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+/* ---------------------------------------------------------------- */
+
+.alert-success{
+    z-index: 1;
+    background: #D4EDDA;
+    font-size: 18px;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: fixed;
+    right: 0;
+    top: 10px;
+    border-left: 8px solid #3AD66E;
+    border-radius: 4px;
+  }
+  
+.alert-error{
+    z-index: 1;
+    background: #FFF3CD;
+    font-size: 18px;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: fixed;
+    right: 0;
+    top: 10px;
+    border-left: 8px solid #FFA502;
+    border-radius: 4px;
+  }
+    
+/* header section full screen */
+#banner {
+    width: 100%;
+    height: 30%;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #fff;
+    color: rgb(12, 1, 43);
+    z-index: 1000;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    font-size: 1.2em;
+    padding-left: 0;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.navbar-menu ul {
+    list-style: none;
+    display: inline-block;
+    padding-left: 0;
+ 
+}
+
+.navbar-menu li{
+    padding: 8px 25px;
+
+}
+
+.navbar-menu > ul > li {
+    position: relative;
+    cursor: pointer;
+    float: left;
+    
+    height: 50px;
+    line-height: 50px;
+    transition: all 0.2s ease !important;
+}
+
+.navbar-menu li:hover{
+    font-weight: bold;
+    background-color: #F55236;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    padding: none;
+}
+
+#special {
+    border-radius: 50px;
+    background-color: #F55236;
+    
+}
+
+#special:hover{
+    transition: all 0.2s ease !important;
+    background-color: rgb(66, 110, 66);
+    font-size: 1.21em;
+}
+
+
+#navbar-toggleBtn {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+}
+
+.dropdown {
+    position: relative;
+    top: 0;
+    right: 25px;
+    width: 100%;
+    padding: 0;
+}
+
+.dropdown li {
+    background-color: rgb(255, 255, 255);
+    display: none;
+    transition: all 0.5s ease !important;
+    width: 100%;
+    padding: none;
+}
+
+.dropdown li:hover {
+    background-color: #F55236;
+    transition: all 0.7s ease !important;
+
+}
+
+.navbar-menu li:hover > .dropdown li {
+    display: block;
+    
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Content Section index.html */
+.content {
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.content-background {
+    background-image: url('img/3.webp');
+    background-size: 100% 100%;
+    
+  
+}
+.content-background-content {
+    
+    vertical-align: middle;
+}
+
+.content-background-content h1 {
+    font-size: 4em;
+    padding: 5em 0em 0em 10%;
+    margin: 0;
+    
+}
+
+.content-background-content ul {
+    padding: 2em;
+    padding-left: 10%;
+    margin: 0;
+    list-style: none;
+}
+
+.content-background-content li {
+    font-size: 2em;
+    
+   
+}
+#newMember_link {
+    padding: 0em 0em 10em 10%;
+   
+}
+
+#newMember_link a {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: auto;
+    border: 5px solid black;
+    background-color: #FFC313;
+    padding: .5em;
+    text-decoration: none;
+}
+
+#newMember_link a:hover {
+    background-color: #fff;
+}
+
+.content-container-home {
+    padding: 2em;
+    display: flex;
+}
+
+.content-intro-home {
+    max-width: 50%;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+#home-image {
+    width: 100%;
+    height: 100%;
+}
+/* ---------------------------------------------------------------- */
+/* 
+/* ---------------------------------------------------------------- */
+/* Content Section programs.html */
+
+.content-programs h1{
+    text-align: center;
+    font-size: 3em;
+}
+.content-container-programs {
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-left: 20%;
+}
+
+.content-container-programs img {
+    width: 250px;
+    height: 250px;
+}
+
+.content-container-programs h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.content-container-h1a {
+    margin-left: 2em;
+    padding: 2em;
+    border: 10px solid black;
+}
+
+.content-container-h1a a {
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+    border: 10px solid black;
+    background-color: black;
+}
+
+/* ---------------------------------------------------------------- */
+/* Content Section taekwondo.html */
+.content-heading {
+    text-align: center;
+    font-size: 3em;
+}
+
+.content-tkd-heading {
+    text-align: center;
+    border: 5px solid rgb(248, 221, 186);
+    width: 50%;
+    margin: auto;
+}
+
+.content-tkd-heading ul {
+    column-count: 3;
+    border-top: 3px dotted antiquewhite;
+    padding: 10px;
+    margin: 0;
+}
+
+.container-content-tkd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 3px solid black;
+}
+
+.content-tkd-cards {
+    max-width: 40%;
+    margin: 20px;
+    margin-bottom: 10em;
+    border: 10px solid antiquewhite;
+    background: antiquewhite;
+}
+
+.content-tkd-cards h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-tkd-cards img {
+    width: 100%;
+    height: 70%;
+}
+
+.content-fencing-cards {
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 10px;
+}
+
+.content-fencing-cards img {
+    width: 500px;
+    height: 400px;
+}
+.content-fencing {
+    padding: 20px;
+}
+
+.content-fencing h1{
+    font-size: 2em;
+}
+
+.content-fencing p{
+    font-size: 1.2em;
+}
+
+/* ---------------------------------------------------------------- */
+/* Content Section gallery.html */
+
+.gallery {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    padding: 20px;
+    filter: grayscale(70%);
+    transition: .5s;
+}
+
+.gallery img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+
+
+/* ---------------------------------------------------------------- */
+/* Content Section inventory.html */
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+/* Content Section contact.html */
+
+.content-container-contact {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:400px;
+    width:400px;
+    padding: 2em;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:400px;
+    width:400px;
+}
+
+.content-contact {
+    border-top: 10px solid #000;
+    min-width: 40%;
+    padding: 2em;
+}
+
+#contactForm {
+    line-height: 1.6em;
+    
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+/* ---------------------------------------------------------------- */
+/* teamMember.html */
+
+.content-header {
+    text-align: center;
+    font-size: 3em;
+}
+
+
+.masterPics {
+    width: 400px;
+    height: 480px;
+}
+
+.InstructorPics {
+    width: 150px;
+    height: 200px;
+}
+
+
+.firstRow {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+}
+
+.secondRow {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+}
+
+.firstItems h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.firstItems p{
+    margin-top: 0;
+}
+
+.secondItems h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.secondItems p{
+    margin-top: 0;
+}
+
+
+
+/* ---------------------------------------------------------------- */
+/* schedule.html */
+#schedulePic {
+    width: 80%;
+    height: 80%;
+    align-items: center;
+}
+
+.schedule-container {
+    text-align: center;
+}
+
+.content-header2 {
+    text-align: center;
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Inventory.php */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+
+
+/* ---------------------------------------------------------------- */
+/* Footer section */
+.footer {
+    padding: 3em;
+    background-color: rgb(243, 241, 237)
+}
+
+
+
+.footer-Container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.business-hour h1, .contact-us h1 {
+    text-align: center;
+}
+
+.business-hour ul{
+    padding: 0;
+    line-height: 30px;
+    font-size: 1.2em;
+
+}
+
+.contact-us p {
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.contact-us a {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Header section with toggle button & responsive factors */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        /* margin: auto;
+        padding: 20px; */
+    }
+
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+        /* padding-left: 0;
+        margin-right: 20px; */
+    }
+
+    
+    .navbar-menu li{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    #navbar-toggleBtn {
+        display: block;
+        position: absolute;
+        right: 10px;
+        font-size: 24px;
+        /* padding-right: 40px; */
+    }
+
+    .navbar-menu.active, 
+    .navbar-icons.active {
+        display: flex;
+        padding: 0;
+    }
+
+/* ----------------------------------------- */
+/* Content being responsive and changed to column instead of */
+    .content-container {
+        flex-direction: column;
+    }
+
+    .content-image {
+        margin: auto;
+    }
+
+    .content-intro {
+        max-width: 100%;
+        font-size: 1.2em;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    .content-container-about {
+        flex-direction: column;
+    }
+
+    .content-intro-about {
+        max-width: 100%;
+        font-size: 1.2em;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    .content-container-programs {
+        flex-direction: column;
+    }
+
+    .content-programs {
+        max-width: 100%;
+        font-size: 1.2em;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+/* ---------------------------------------------------------------- */
+
+    .content-container-programs {
+        flex-direction: column;
+        display: flex;
+        margin: 0;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .content-container-programs img {
+        width: 450px;
+        height: 450px;
+        margin-bottom: 1em;
+    }
+
+    .content-container-programs h1 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    .content-container-h1a {
+        margin: 0;
+        padding: 2em;
+        border: 10px solid black;
+        margin-bottom: 2em;
+    }
+
+    .content-container-h1a a {
+        font-size: 1.2em;
+        color: white;
+        font-weight: bold;
+        border: 10px solid black;
+        background-color: black;
+    }
+
+
+
+}
+

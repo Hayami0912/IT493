@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Elite Action Database</title>
+    <link rel="stylesheet" media="screen" href="">
+  </head>
+  <body>
+    <div class="Main">
+		<div class="Header">
+			<h1>Welcome to Elite Action Database</h1>
+		</div>
+		
+		<div class="Body">
+			<p> Adjust By Item ID </p>
+			<form action="insert.php" method="post">
+				ID: <input type="text" name = "id" /><br/>
+				New Item Name: <input type="text" name = "new_item_name" /><br/>
+				<input type="submit" name="save" value ="submit" />
+			</form>
+
+			<p> Adjust By Item name </p>
+			<form action="insert.php" method="post">
+				Current Item Name: <input type="text" name = "item_name" /><br/>
+				New Item Name: <input type="text" name = "new_item_name" /><br/>
+				<input type="submit" name="save2" value ="submit" />
+			
+			<p><a href='http://3.234.254.93/adjustData.html'>Return Adjusting Selection</a></p>
+			<p><a href='http://3.234.254.93/'>Return Home</a></p>
+			</form>
+</div>
+		
+		<div class="Footer">
+			<p>This web site is entirely original work and full academic copyright is retained. This web site complies 
+            with the<a href="http://oai.gmu.edu/mason-honor-code/"> Mason Honor Code</a></p>
+		</div>
+	</div>
+  </body>
+</html>
